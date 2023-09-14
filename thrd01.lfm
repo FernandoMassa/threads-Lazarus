@@ -1,0 +1,133 @@
+object Form1: TForm1
+  Left = 29
+  Height = 317
+  Top = 9
+  Width = 872
+  Caption = 'Form1'
+  ClientHeight = 317
+  ClientWidth = 872
+  LCLVersion = '2.2.6.0'
+  object Button1: TButton
+    Left = 48
+    Height = 25
+    Top = 22
+    Width = 168
+    Caption = 'Executa Thread'
+    OnClick = btnThdSinc
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 48
+    Height = 25
+    Top = 88
+    Width = 136
+    Caption = 'Para Thread 01'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 48
+    Height = 25
+    Top = 162
+    Width = 136
+    Caption = 'Para Thread 02'
+    OnClick = Button3Click
+    TabOrder = 2
+  end
+  object ProgressBar1: TProgressBar
+    Left = 48
+    Height = 20
+    Top = 120
+    Width = 776
+    TabOrder = 3
+  end
+  object ProgressBar2: TProgressBar
+    Left = 48
+    Height = 20
+    Top = 194
+    Width = 776
+    TabOrder = 4
+  end
+  object edtTempo: TSpinEdit
+    Left = 274
+    Height = 23
+    Top = 24
+    Width = 82
+    TabOrder = 5
+  end
+  object Label1: TLabel
+    Left = 226
+    Height = 15
+    Top = 28
+    Width = 36
+    Caption = 'Tempo'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 383
+    Height = 15
+    Top = 28
+    Width = 61
+    Caption = 'Incremento'
+    ParentColor = False
+  end
+  object edtInc: TSpinEdit
+    Left = 455
+    Height = 23
+    Top = 24
+    Width = 82
+    TabOrder = 6
+  end
+  object rbtTh01: TRadioButton
+    Left = 736
+    Height = 19
+    Top = 16
+    Width = 69
+    Caption = 'thread 01'
+    Checked = True
+    TabOrder = 8
+    TabStop = True
+  end
+  object rbtTh02: TRadioButton
+    Left = 736
+    Height = 19
+    Top = 38
+    Width = 69
+    Caption = 'thread 02'
+    TabOrder = 7
+  end
+  object edtMax: TSpinEdit
+    Left = 616
+    Height = 23
+    Top = 24
+    Width = 82
+    TabOrder = 9
+  end
+  object Label3: TLabel
+    Left = 560
+    Height = 15
+    Top = 28
+    Width = 44
+    Caption = 'Máximo'
+    ParentColor = False
+  end
+  object JvMovablePanel1: TJvMovablePanel
+    Left = 560
+    Height = 53
+    Top = 220
+    Width = 264
+    Caption = 'JvMovablePanel1'
+    Color = clMenuHighlight
+    ParentColor = False
+    TabOrder = 10
+  end
+  object btnNorm: TBitBtn
+    Left = 48
+    Height = 30
+    Top = 243
+    Width = 152
+    Caption = 'Executa Normal'
+    OnClick = btnNormClick
+    TabOrder = 11
+  end
+end
